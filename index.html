@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>High-Converting HTML Email Templates | Your Name</title>
+    <title>High-Converting HTML Email Templates | Jennifer Mbonu</title>
     <meta name="description" content="Professionally designed, fully responsive HTML email templates that work across all major clients. Boost your engagement and conversions.">
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
@@ -52,72 +52,125 @@
         <section id="templates" class="py-20">
             <div class="container mx-auto px-6">
                 <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">Our Template Collection</h2>
-                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+                
+                <!-- This is the single container for ALL template cards -->
+                <div id="template-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
 
-                    <!-- Template Card 1: NGO -->
-                    <div class="bg-white rounded-lg shadow-lg overflow-hidden card-hover-effect">
+                    <!-- Card 1 -->
+                    <div class="template-card bg-white rounded-lg shadow-lg overflow-hidden card-hover-effect">
                         <img src="./Assets/hero-ngo.jpg" alt="NGO Email Template Preview" class="w-full h-48 object-cover">
                         <div class="p-6">
                             <h3 class="text-xl font-bold mb-2">NGO Fundraising Template</h3>
-                            <p class="text-gray-600 mb-4">A clean, high-converting template perfect for non-profits focused on fundraising and storytelling. Mobile-first and fully responsive.</p>
+                            <p class="text-gray-600 mb-4">A clean, high-converting template perfect for non-profits focused on fundraising and storytelling.</p>
                             <a href="ngo.html" target="_blank" class="font-bold text-blue-600 hover:text-blue-800">View Template &rarr;</a>
                         </div>
                     </div>
-
-                    <!-- Template Card 2: Placeholder -->
-                    <div class="bg-white rounded-lg shadow-lg overflow-hidden card-hover-effect">
-                        <img src="https://placehold.co/600x400/34D399/FFFFFF?text=E-commerce+Template" alt="E-commerce Template Preview" class="w-full h-48 object-cover">
-                        <div class="p-6">
-                            <h3 class="text-xl font-bold mb-2">E-commerce Product Launch</h3>
-                            <p class="text-gray-600 mb-4">Drive sales with this sleek, modern template designed to showcase your products and promotions. (Coming Soon)</p>
-                            <a href="#" class="font-bold text-gray-400 cursor-not-allowed">View Template &rarr;</a>
-                        </div>
-                    </div>
-
-                    <!-- Template Card 3: Placeholder -->
-                    <div class="bg-white rounded-lg shadow-lg overflow-hidden card-hover-effect">
-                        <img src="https://placehold.co/600x400/F59E0B/FFFFFF?text=SaaS+Newsletter" alt="SaaS Newsletter Template Preview" class="w-full h-48 object-cover">
-                        <div class="p-6">
-                            <h3 class="text-xl font-bold mb-2">SaaS Company Newsletter</h3>
-                            <p class="text-gray-600 mb-4">Engage your users with a clean, professional newsletter template perfect for updates, articles, and announcements. (Coming Soon)</p>
-                            <a href="#" class="font-bold text-gray-400 cursor-not-allowed">View Template &rarr;</a>
-                        </div>
-                    </div>
-
-                </div>
-                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mt-4 pt-4">
-
-                    <!-- Template Card 4: PharmaLogix -->
-                    <div class="bg-white rounded-lg shadow-lg overflow-hidden card-hover-effect">
-                        <img src="./Assets/Pharma-Hero.jpg" alt="NGO Email Template Preview" class="w-full h-48 object-cover">
+                    <!-- Card 2 -->
+                    <div class="template-card bg-white rounded-lg shadow-lg overflow-hidden card-hover-effect">
+                        <img src="./Assets/Pharma-Hero.jpg" alt="PharmaLogix Email Template Preview" class="w-full h-48 object-cover">
                         <div class="p-6">
                             <h3 class="text-xl font-bold mb-2">PharmaLogix Template</h3>
-                            <p class="text-gray-600 mb-4">Streamline your pharmaceutical supply chain with PharmaLogix — delivering critical raw materials with unmatched precision, compliance, and speed.</p>
+                            <p class="text-gray-600 mb-4">A professional, reliable email template designed for logistics companies specializing in pharmaceuticals.</p>
                             <a href="pharma-logistics.html" target="_blank" class="font-bold text-blue-600 hover:text-blue-800">View Template &rarr;</a>
                         </div>
                     </div>
-
-                    <!-- Template Card 5: Webinar -->
-                    <div class="bg-white rounded-lg shadow-lg overflow-hidden card-hover-effect">
+                    <!-- Card 3 -->
+                    <div class="template-card bg-white rounded-lg shadow-lg overflow-hidden card-hover-effect">
                         <img src="./Assets/AI-Illustration.png" alt="Webinar Email Template Preview" class="w-full h-48 object-cover">
                         <div class="p-6">
-                            <h3 class="text-xl font-bold mb-2">Webinar Email</h3>
-                            <p class="text-gray-600 mb-4">Unlock the power of AI to transform your business — join our exclusive webinar and discover strategies that drive growth, boost efficiency, and keep you ahead of the competition.</p>
-                            <a href="webinar.html" class="font-bold text-blue-600 hover:text-blue-800">View Template &rarr;</a>
+                            <h3 class="text-xl font-bold mb-2">Webinar Invite Template</h3>
+                            <p class="text-gray-600 mb-4">A high-converting, engaging email template to boost webinar sign-ups and drive registrations.</p>
+                            <a href="webinar.html" target="_blank" class="font-bold text-blue-600 hover:text-blue-800">View Template &rarr;</a>
                         </div>
                     </div>
-
-                    <!-- Template Card 6: Placeholder -->
-                    <div class="bg-white rounded-lg shadow-lg overflow-hidden card-hover-effect">
-                        <img src="https://placehold.co/600x400/FF28A0/FFFFFF?text=Nail+Studio+Thank+You" alt="SaaS Newsletter Template Preview" class="w-full h-48 object-cover">
+                    <!-- Card 4 -->
+                    <div class="template-card bg-white rounded-lg shadow-lg overflow-hidden card-hover-effect">
+                         <img src="https://placehold.co/600x400/f9d6d1/7b4b58?text=Nail+Studio" alt="Nail Studio Template Preview" class="w-full h-48 object-cover">
+                         <div class="p-6">
+                             <h3 class="text-xl font-bold mb-2">Nail Studio Template</h3>
+                             <p class="text-gray-600 mb-4">Elegant, visually appealing email to thank clients and encourage repeat visits and bookings.</p>
+                             <a href="nailstudio.html" target="_blank" class="font-bold text-blue-600 hover:text-blue-800">View Template &rarr;</a>
+                         </div>
+                    </div>
+                    <!-- Card 5 -->
+                    <div class="template-card bg-white rounded-lg shadow-lg overflow-hidden card-hover-effect">
+                        <img src="https://placehold.co/600x400/34D399/FFFFFF?text=E-commerce" alt="E-commerce Template Preview" class="w-full h-48 object-cover">
                         <div class="p-6">
-                            <h3 class="text-xl font-bold mb-2">Nail Studio Thank you Template</h3>
-                            <p class="text-gray-600 mb-4">Indulge in flawless nails and a touch of luxury, every detail is perfected so you can shine with confidence, one manicure at a time. (Coming Soon)</p>
+                            <h3 class="text-xl font-bold mb-2">E-commerce Product Launch</h3>
+                            <p class="text-gray-600 mb-4">Drive sales with this sleek, modern template designed to showcase your products and promotions.</p>
                             <a href="#" class="font-bold text-gray-400 cursor-not-allowed">View Template &rarr;</a>
                         </div>
                     </div>
-
+                    <!-- Card 6 -->
+                    <div class="template-card bg-white rounded-lg shadow-lg overflow-hidden card-hover-effect">
+                        <img src="https://placehold.co/600x400/F59E0B/FFFFFF?text=SaaS+Newsletter" alt="SaaS Newsletter Template Preview" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold mb-2">SaaS Company Newsletter</h3>
+                            <p class="text-gray-600 mb-4">Engage your users with a clean, professional newsletter template for updates and announcements.</p>
+                            <a href="#" class="font-bold text-gray-400 cursor-not-allowed">View Template &rarr;</a>
+                        </div>
+                    </div>
+                    <!-- Card 7 -->
+                     <div class="template-card bg-white rounded-lg shadow-lg overflow-hidden card-hover-effect">
+                        <img src="https://placehold.co/600x400/ef4444/FFFFFF?text=Real+Estate" alt="Real Estate Template Preview" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold mb-2">Real Estate Listing</h3>
+                            <p class="text-gray-600 mb-4">A visually-driven template to showcase property listings with large images and key details.</p>
+                            <a href="#" class="font-bold text-gray-400 cursor-not-allowed">View Template &rarr;</a>
+                        </div>
+                    </div>
+                    <!-- Card 8 -->
+                    <div class="template-card bg-white rounded-lg shadow-lg overflow-hidden card-hover-effect">
+                        <img src="https://placehold.co/600x400/8b5cf6/FFFFFF?text=Welcome+Email" alt="Welcome Email Template Preview" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold mb-2">User Welcome Series</h3>
+                            <p class="text-gray-600 mb-4">A warm and inviting template to onboard new users and guide them through first steps.</p>
+                            <a href="#" class="font-bold text-gray-400 cursor-not-allowed">View Template &rarr;</a>
+                        </div>
+                    </div>
+                    <!-- Card 9 -->
+                    <div class="template-card bg-white rounded-lg shadow-lg overflow-hidden card-hover-effect">
+                        <img src="https://placehold.co/600x400/10b981/FFFFFF?text=Event+Reminder" alt="Event Reminder Template Preview" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold mb-2">Event Reminder</h3>
+                            <p class="text-gray-600 mb-4">A simple, clear template to remind attendees about an upcoming event with all key info.</p>
+                            <a href="#" class="font-bold text-gray-400 cursor-not-allowed">View Template &rarr;</a>
+                        </div>
+                    </div>
+                    <!-- Card 10 (This will appear on Page 2) -->
+                    <div class="template-card bg-white rounded-lg shadow-lg overflow-hidden card-hover-effect">
+                        <img src="https://placehold.co/600x400/4A90E2/FFFFFF?text=NGO+Template" alt="NGO Email Template Preview" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold mb-2">NGO Fundraising Template</h3>
+                            <p class="text-gray-600 mb-4">A clean, high-converting template perfect for non-profits focused on fundraising and storytelling.</p>
+                            <a href="ngo.html" target="_blank" class="font-bold text-blue-600 hover:text-blue-800">View Template &rarr;</a>
+                        </div>
+                    </div>
+                    <!-- Card 11 (This will appear on Page 2) -->
+                    <div class="template-card bg-white rounded-lg shadow-lg overflow-hidden card-hover-effect">
+                        <img src="https://placehold.co/600x400/003366/FFFFFF?text=Pharma+Template" alt="PharmaLogix Email Template Preview" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold mb-2">PharmaLogix Template</h3>
+                            <p class="text-gray-600 mb-4">A professional, reliable email template designed for logistics companies specializing in pharmaceuticals.</p>
+                            <a href="pharma-logistics.html" target="_blank" class="font-bold text-blue-600 hover:text-blue-800">View Template &rarr;</a>
+                        </div>
+                    </div>
+                     <!-- Card 12 (This will appear on Page 2) -->
+                    <div class="template-card bg-white rounded-lg shadow-lg overflow-hidden card-hover-effect">
+                        <img src="https://placehold.co/600x400/2563EB/FFFFFF?text=Webinar+Template" alt="Webinar Email Template Preview" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold mb-2">Webinar Invite Template</h3>
+                            <p class="text-gray-600 mb-4">A high-converting, engaging email template to boost webinar sign-ups and drive registrations.</p>
+                            <a href="webinar.html" target="_blank" class="font-bold text-blue-600 hover:text-blue-800">View Template &rarr;</a>
+                        </div>
+                    </div>
                 </div>
+
+                <!-- Pagination Container -->
+                <div id="pagination-container" class="mt-16 flex justify-center items-center space-x-2">
+                    <!-- Pagination buttons will be generated here -->
+                </div>
+
             </div>
         </section>
 
@@ -137,6 +190,87 @@
             <p>&copy; 2025 <span class="text-blue-600"><a href="https://www.linkedin.com/in/jennifermbonu">Jennifer Mbonu</a></span>. All Rights Reserved.</p>
         </div>
     </footer>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const itemsPerPage = 9;
+        const templateGrid = document.getElementById('template-grid'); 
+        const allTemplates = Array.from(templateGrid.getElementsByClassName('template-card')); 
+        const pageCount = Math.ceil(allTemplates.length / itemsPerPage);
+        const paginationContainer = document.getElementById('pagination-container');
+        let currentPage = 1;
 
+        function displayPage(page) {
+            currentPage = page;
+            allTemplates.forEach(template => template.style.display = 'none');
+
+            const startIndex = (page - 1) * itemsPerPage;
+            const endIndex = startIndex + itemsPerPage;
+            const pageTemplates = allTemplates.slice(startIndex, endIndex);
+
+            pageTemplates.forEach(template => template.style.display = 'block');
+
+            if (pageCount > 1) {
+                updatePaginationUI();
+            }
+        }
+
+        function updatePaginationUI() {
+            paginationContainer.innerHTML = ''; 
+
+            const prevButton = document.createElement('a');
+            prevButton.href = '#templates';
+            prevButton.innerHTML = '&lt;';
+            prevButton.className = 'px-3 py-2 bg-white rounded-md shadow-sm hover:bg-gray-100 text-gray-700';
+            if (currentPage === 1) {
+                prevButton.classList.add('opacity-50', 'cursor-not-allowed');
+            }
+            prevButton.addEventListener('click', (e) => {
+                e.preventDefault();
+                if (currentPage > 1) {
+                    displayPage(currentPage - 1);
+                    document.getElementById('templates').scrollIntoView();
+                }
+            });
+            paginationContainer.appendChild(prevButton);
+
+            for (let i = 1; i <= pageCount; i++) {
+                const pageButton = document.createElement('a');
+                pageButton.href = '#templates';
+                pageButton.innerText = i;
+                if (i === currentPage) {
+                    pageButton.className = 'px-4 py-2 bg-blue-600 text-white rounded-md shadow-sm';
+                } else {
+                    pageButton.className = 'px-4 py-2 bg-white text-gray-700 rounded-md shadow-sm hover:bg-gray-100';
+                }
+                pageButton.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    displayPage(i);
+                    document.getElementById('templates').scrollIntoView();
+                });
+                paginationContainer.appendChild(pageButton);
+            }
+
+            const nextButton = document.createElement('a');
+            nextButton.href = '#templates';
+            nextButton.innerHTML = '&gt;';
+            nextButton.className = 'px-3 py-2 bg-white rounded-md shadow-sm hover:bg-gray-100 text-gray-700';
+            if (currentPage === pageCount) {
+                nextButton.classList.add('opacity-50', 'cursor-not-allowed');
+            }
+            nextButton.addEventListener('click', (e) => {
+                e.preventDefault();
+                if (currentPage < pageCount) {
+                    displayPage(currentPage + 1);
+                    document.getElementById('templates').scrollIntoView();
+                }
+            });
+            paginationContainer.appendChild(nextButton);
+        }
+
+        if (allTemplates.length > 0) {
+            displayPage(1);
+        }
+    });
+</script>
 </body>
 </html>
